@@ -3,10 +3,10 @@ import { AnimatePresence, motion } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { Heart } from 'lucide-react';
 
-import { Background } from './components/Background';
-import { CursorTrail } from './components/CursorTrail';
-import { MusicPlayer } from './components/MusicPlayer';
-import { SuccessModal } from './components/SuccessModal';
+import Background from "./Background"
+import CursorTrail from "./CursorTrail"
+import MusicPlayer from "./MusicPlayer"
+import SuccessModal from "./SuccessModal"
 
 export default function App() {
   const [noBtnPosition, setNoBtnPosition] = useState({ x: 0, y: 0 });
